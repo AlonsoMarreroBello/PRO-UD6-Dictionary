@@ -29,3 +29,4 @@ Para ejecutar el programa, sigue estos pasos:
 ## Documentación
 
 La documentación completa de las clases se encuentra aquí. [docs](./docs/index.html)
+Recuerda que para poder ver de forma adecuada toda la documentacion en formato web debes descargar el proyecto.
