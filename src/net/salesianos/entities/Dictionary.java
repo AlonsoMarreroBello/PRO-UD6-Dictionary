@@ -9,9 +9,17 @@ import java.util.Set;
 
 import net.salesianos.utils.Sanitizer;
 
+/**
+ * Class representing a dictionary of words.
+ */
 public class Dictionary {
   private static Map<Character, Set<Word>> dictionary = new HashMap<>();
 
+  /**
+   * Adds a word to the dictionary.
+   * 
+   * @param scanner Scanner to read user input.
+   */
   public static void addWord(Scanner scanner) {
     System.out.print("Enter a word: ");
     String wordStr = scanner.nextLine();
@@ -32,6 +40,11 @@ public class Dictionary {
     }
   }
 
+  /**
+   * Deletes a word from the dictionary.
+   * 
+   * @param scanner Scanner to read user input.
+   */
   public static void deleteWord(Scanner scanner) {
     System.out.print("Enter the word to delete: ");
     String wordStr = scanner.nextLine();
@@ -48,6 +61,11 @@ public class Dictionary {
     }
   }
 
+  /**
+   * Checks if a word is in the dictionary.
+   * 
+   * @param scanner Scanner to read user input.
+   */
   public static void searchWord(Scanner scanner) {
     System.out.print("Enter the word to search for: ");
     String wordStr = scanner.nextLine();
@@ -64,6 +82,9 @@ public class Dictionary {
     }
   }
 
+  /**
+   * Displays the available initials in the dictionary.
+   */
   public static void showInitials() {
     if (dictionary.isEmpty()) {
       System.out.println("There are no stored words.");
@@ -76,6 +97,11 @@ public class Dictionary {
     }
   }
 
+  /**
+   * Displays words that start with a specific initial.
+   * 
+   * @param scanner Scanner to read user input.
+   */
   public static void viewWordsByInitial(Scanner scanner) {
     System.out.print("Enter the initial: ");
     char initial = scanner.nextLine().charAt(0);

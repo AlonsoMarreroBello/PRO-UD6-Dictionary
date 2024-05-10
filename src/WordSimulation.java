@@ -4,8 +4,16 @@ import java.util.Scanner;
 
 import net.salesianos.entities.Dictionary;
 
+/**
+ * This class simulates a program to manage a dictionary of words.
+ */
 public class WordSimulation {
 
+  /**
+   * Main method that starts the simulation.
+   * 
+   * @param args Command-line arguments (not used).
+   */
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Welcome to the word simulation.");

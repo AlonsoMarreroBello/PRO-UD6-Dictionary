@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"net.salesianos.entities","l":"Dictionary"},{"p":"net.salesianos.utils","l":"Sanitizer"},{"p":"net.salesianos.entities","l":"Word"},{"p":"<Unnamed>","l":"WordSimulation"}];updateSearchResults();

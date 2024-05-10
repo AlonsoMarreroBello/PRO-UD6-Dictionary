@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"net.salesianos.entities"},{"l":"net.salesianos.utils"}];updateSearchResults();
